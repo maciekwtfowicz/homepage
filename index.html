@@ -9,16 +9,30 @@
 </head>
 
 <body>
+	<header>
+		<nav>
+			<a href="index.html">Strona główna</a>
+			<a href="nauka-html.html">Nauka HTML</a>
+		</nav>
+	</header>
 	<main>
-		<header>
+		<header id="top">
 			<h1>Maciek Korsan - Strona domowa</h1>
 		</header>
 		<section>
 			<h2>Kim jestem?</h2>
+			<img src="korsi.png" alt="Zdjęcie Maćka Korsana"/>
 			<p>
-				Hej! Na co dzień uczę wspaniałych ludzi tajnej sztuki frontendu i pracuję jako frontend developer w
-				kilku produktach. Poza tym bardzo lubię robić zdjęcia i latać dronem. Witam Cię na mojej stronie
-				domowej, mam nadzieję, że znajdziesz tu trochę przydatnych rzeczy.</p>
+				Hej! Na co dzień uczę <strong>wspaniałych ludzi</strong> tajnej <strong>sztuki frontendu</strong> w ramach
+				szkolenia <a href="https://cotenfrontend.pl" target="_blank">WTF</a> i pracuję jako <em>frontend developer</em>
+				w
+				<i>kilku produktach</i>. Poza tym bardzo lubię <u>robić zdjęcia i latać dronem</u>. <br> Witam Cię na mojej
+				stronie
+				domowej, mam nadzieję, że znajdziesz tu trochę przydatnych rzeczy.
+			</p>
+			<p>
+				Poczytaj więcej o <a href="#szkolenie">nagrywaniu szkolenia</a>
+			</p>
 		</section>
 		<section>
 			<h2>Notatki z WTF: Co ten frontend</h2>
@@ -38,7 +52,7 @@
 				<p>to jest treść dotycząca gita</p>
 			</article>
 			</article>
-			<article>
+			<article id="szkolenie">
 				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
 				<p>
 					Na początku myślałem, że całe szkolenie nagram w 2 tygodnie (o ja naiwny!). Samo planowanie rzeczy
@@ -46,13 +60,12 @@
 					schemat nagrywania, który każdego dnia przybliża mnie do skończenia pracy.</p>
 			</article>
 		</section>
-
-
-		<footer>
-			<p>Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend.</p>
-		</footer>
-
 	</main>
+
+	<footer>
+		<p>Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. <a
+				href="#top">Do góry ⬆️</a></p>
+	</footer>
 </body>
 
 </html>

@@ -20,11 +20,13 @@ h2 {
 
 
 a {
-	color: green;
+	color: inherit;
 }
 
-section a {
-	color: orange;
+
+
+.my-article {
+	color: hotpink !important;
 }
 
 .my-article p {
@@ -35,3 +37,8 @@ section a {
 #name {
 	color: red;
 }
+
+.about {
+	color: #a20041;
+}
+

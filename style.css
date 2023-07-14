@@ -1,9 +1,18 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body  {
 	background: #fefefe;
 }
 
 h1 {
 	color: darkgreen;
+	padding: 16px;
 }
 
 h2 {
@@ -16,6 +25,7 @@ h2 {
 
 #szkolenie {
 	background: yellow;
+	padding: 16px;
 }
 
 
@@ -23,6 +33,13 @@ a {
 	color: inherit;
 }
 
+section {
+	padding: 16px;
+}
+
+footer {
+	padding: 16px;
+}
 
 
 .my-article {
@@ -32,6 +49,7 @@ a {
 .my-article p {
 	background: #1460AA;
 	color: #fff;
+	padding: 16px;
 }
 
 #name {
@@ -40,5 +58,9 @@ a {
 
 .about {
 	color: #a20041;
+}
+
+header {
+	padding: 16px;
 }
 

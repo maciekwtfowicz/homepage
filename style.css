@@ -29,9 +29,7 @@ h2 {
 }
 
 
-a {
-	color: inherit;
-}
+
 
 section {
 	padding: 16px;
@@ -61,6 +59,30 @@ footer {
 }
 
 header {
+}
+
+.navigation {
 	padding: 16px;
+	background: blue;
+}
+
+
+.navigation__link {
+	color: white;
+}
+
+.section {
+	background: #dcdcdc;
+	margin-bottom: 16px;
+}
+
+.section__header {
+	margin-left: 64px;
+	color: #044550;
+}
+
+
+.section__header--special {
+	color: tomato;
 }
 

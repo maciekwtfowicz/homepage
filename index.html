@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<header>
+	<header class="header">
 		<nav class="navigation">
 			<a class="navigation__link" href="index.html">Strona główna</a>
 			<a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
@@ -22,7 +22,7 @@
 		</header>
 		<section class="section">
 			<h2 class="section__header">Kim jestem?</h2>
-			<img src="/korsi.png" alt="Zdjęcie Maćka Korsana"/>
+			<img class="section__image" src="/korsi.png" alt="Zdjęcie Maćka Korsana"/>
 			<p >
 				Hej! Na co dzień uczę <strong>wspaniałych ludzi</strong> tajnej <strong>sztuki frontendu</strong> w ramach
 				szkolenia <a href="https://cotenfrontend.pl" target="_blank">WTF</a> i pracuję jako <em>frontend developer</em>
@@ -38,23 +38,23 @@
 		<section class="section">
 			<h2 class="section__header section__header--special">Notatki z WTF: Co ten frontend</h2>
 			<article class="my-article">
-				<h3>Jak stworzyć prawidłowego HTML-a?</h3>
+				<h3 class="my-article__header">Jak stworzyć prawidłowego HTML-a?</h3>
 				<p>
 					Tworzenie zgodnego ze standardami HTML-a to sztuka, którą do perfekcji opanowało niewielu. Jeśli
 					chcesz stać się częścią tej grupy, musisz wykazać się otwartą głową i dużą ilością wolnego czasu...
 				</p>
 			</article>
-			<article>
-				<h3>nagłówek</h3>
-				<p>testowa treść</p>
+			<article class="my-article">
+				<h3 class="my-article__header">JavaScript</h3>
+				<p class="my-article__content--js"></p>
 			</article>
-			<article>
-				<h3>Git</h3>
+			<article class="my-article">
+				<h3 class="my-article__header">Git</h3>
 				<p>to jest treść dotycząca gita</p>
 			</article>
 			</article>
-			<article id="szkolenie">
-				<h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
+			<article class="my-article">
+				<h3 class="my-article__header">Czy nagrywanie szkolenia to prosta sprawa?</h3>
 				<p>
 					Na początku myślałem, że całe szkolenie nagram w 2 tygodnie (o ja naiwny!). Samo planowanie rzeczy
 					zajęło dużo więcej! Na szczęście dzięki wsparciu bliskich i sporej motywacji udało mi się wytworzyć
@@ -63,9 +63,9 @@
 		</section>
 	</main>
 
-	<footer>
-		<p>Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. <a
-				href="#top">Do góry ⬆️</a></p>
+	<footer class="footer">
+		<p class="footer__content">Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend. <a
+				class="footer__top-link" href="#top">Do góry ⬆️</a></p>
 	</footer>
 	<script defer src="main.js"></script>
 </body>

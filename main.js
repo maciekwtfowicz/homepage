@@ -10,3 +10,7 @@ header.innerHTML = `Nazywam się ${firstName} i mam ${age} lat`;
 console.log(header.style)
 
 header.style.color = 'red';
+
+const contentJs = document.querySelector('.my-article__content--js');
+
+contentJs.innerHTML = 'Jestem wypełniony javascriptem  🤯'

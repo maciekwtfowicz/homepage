@@ -8,6 +8,7 @@ html {
 
 body  {
 	background: #fefefe;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -95,6 +96,12 @@ header {
 	padding: 16px;
 }
 
+.page-header__heading {
+	font-size: 3rem;
+	font-weight: 700;
+	letter-spacing: -0.05em;
+}
+
 .section {
 	background: #dcdcdc;
 	margin-bottom: 16px;
@@ -115,3 +122,13 @@ header {
 	display: block;
 }
 
+.section p {
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+
+.special {
+	color: hotpink;
+	font-weight: 700;
+}

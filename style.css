@@ -63,6 +63,14 @@ main {
 	color: #1460AA;
 }
 
+.my-article__list {
+	list-style-type: circle;
+}
+
+ol {
+	list-style-type: disc;
+}
+
 .my-article p {
 	background: #1460AA;
 	color: #fff;
@@ -131,4 +139,13 @@ header {
 .special {
 	color: hotpink;
 	font-weight: 700;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+table caption {
+	margin-bottom: 2rem;
 }

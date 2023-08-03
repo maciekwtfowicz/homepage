@@ -6,7 +6,6 @@ console.log(`Nazywam się ${firstName} i mam ${age} lat`);
 const header = document.querySelector('.page-header__heading--js')
 
 
-header.style.color = 'red';
 
 const contentJs = document.querySelector('.my-article__content--js');
 
@@ -37,3 +36,24 @@ const deathStar = {
 
  deathStar.fire('alderaan')
  deathStar.fire('scarif')
+
+const greet = (name, age) => {
+  const result = `Witaj ${name}! Masz ${age} lat!`;
+  return result;
+}
+
+const greeting = greet('Maciek', 35);
+
+console.log(greeting)
+
+console.log(greet('Karolina', 34))
+
+
+
+const button = document.querySelector('.page-header__button--js')
+
+button.addEventListener('click', (e) => {
+  const header = document.querySelector('.page-header__heading--js');
+  header.innerHTML = 'klik, klik!';
+})
+

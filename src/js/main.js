@@ -68,6 +68,5 @@ try {
   console.log(resultDays)
 } catch (e) {
   console.log(e)
-  alert('cos poszlo nie tak');
 }
 

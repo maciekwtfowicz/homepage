@@ -1,0 +1,25 @@
+
+.section {
+  background: #dcdcdc;
+  margin-bottom: 16px;
+  padding: 16px;
+
+  &__header {
+    color: #044550;
+
+    &--special {
+      color: tomato;
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+    display: block;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+
+}

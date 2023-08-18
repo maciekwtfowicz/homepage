@@ -5,8 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>WTF: Co ten frontend</title>
-	<link href="normalize.css" type="text/css" rel="stylesheet">
-	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="styles/main.scss" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +17,7 @@
 			<form action="https://forms.cotenfrontend.pl" method="get">
 				<p>
 					<label for="firstName">Imię</label>
-					<input placeholder="imię" value="Maciek" id="firstName" type="text" name="firstName" />
+					<input autocomplete="username" placeholder="imię" value="Maciek" id="firstName" type="text" name="firstName" />
 				</p>
 				<p>
 					<label for="lastName">Nazwisko</label>
@@ -27,7 +26,7 @@
 
 				<p>
 					<label for="secret">Tajna wiadomość</label>
-					<input placeholder="secret" id="secret" type="password" name="secret" />
+					<input placeholder="secret" id="secret" type="password" autocomplete="current-password" name="secret" />
 				</p>
 
 				<p>
@@ -114,6 +113,7 @@
 			</form>
 		</section>
 	</main>
+	<script type="module" src="js/loops.js"></script>
 </body>
 
 </html>
